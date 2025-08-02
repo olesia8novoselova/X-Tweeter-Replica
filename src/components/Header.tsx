@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Menu } from "./Menu";
 
 export function Header() {
   return (
@@ -17,11 +18,7 @@ export function Header() {
                 priority
             />
         </Link>
-        <nav className="flex gap-6 text-sm text-white/80">
-          <Link href="/">Home</Link>
-          <Link href="/explore">Explore</Link>
-          <Link href="/profile">Profile</Link>
-        </nav>
+        <Menu />
     </header>
   );
 }

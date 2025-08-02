@@ -27,19 +27,6 @@ body {
   line-height: 1.6;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button {
-  background: transparent;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-}
-
 html {
   scroll-behavior: smooth;
 }
